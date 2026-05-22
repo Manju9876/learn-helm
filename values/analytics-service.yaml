@@ -1,4 +1,4 @@
-appName: analytics
+appName: analytics-service
 appPort: 8000
 replicas: 2
 service_type: ClusterIP
