@@ -6,4 +6,4 @@ data:
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
   chart_name_version: {{ .Chart.Name }}-{{ .Chart.Version }}
-  my_number: {{ .Values.my_number }}
+  my_number: {{ .Values.my_number | quote }}
