@@ -9,3 +9,4 @@ data:
   my_number: {{ .Values.my_number | quote }}
   my_name: {{ .Values.my_name | upper }}
   my_age: {{ .Values.my_age | default "manju" | quote }}
+
